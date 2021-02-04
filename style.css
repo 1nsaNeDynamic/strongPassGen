@@ -1,0 +1,221 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+
+body {
+    background-color: #6c6e74;
+}
+
+
+#mainWindow {
+    /* Position */
+    position: relative;
+    margin: auto;
+    top: 140px;
+    
+    /* Design */
+    background-color: #36393f;
+    border-radius: 30px;
+
+    /* Dimensions */
+    width: 450px;
+    height: 600px;
+}
+
+#mainWindowHeader {
+    background-color:#2f3034;
+    height: 80px;
+    border-radius: 30px;
+}
+
+
+#mainWindowHeading {
+    /* Position */
+    position: relative;
+    top: 15px;
+    left: 50px;
+
+    /* Design */
+    color: white;
+    font-family: 'Poppins', sans-serif;    
+
+
+    /* Dimensions */
+}
+
+#passwordLength {
+    /* Position */
+    position: relative;
+    left: 150px;
+    top: 30px;
+
+    /* Design */
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif; ;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    transition: 1s;
+
+    /* Dimensions */
+    height: 50px;
+    width: 150px;
+}
+
+#passwordLength:hover {
+    /* background-color: #bdc9f5; */
+    background-color: #536fd3;
+}
+
+
+#includeSymbols {
+    /* Position */
+    position: relative;
+    left: 20px;
+    top: 80px;
+    
+    /* Design */
+    transform: scale(2);
+    border: none;
+    outline: none;
+
+    /* Dimensions */
+}
+
+#includeSymbolsHeading {
+    /* Position */
+    position: relative;
+    left: 70px;
+    top: 33px;
+    /* Design */
+    font-family: 'Poppins', sans-serif; ;
+    color: white;
+    font-size: 25px;
+
+    /* Dimensions */
+}
+
+#includeUppercase {
+    /* Position */
+    position: relative;
+    left: 20px;
+    top: 50px;
+    
+    /* Design */
+    transform: scale(2);
+    border: none;
+    outline: none;
+
+    /* Dimensions */
+}
+
+#includeUppercaseHeading {
+    /* Position */
+    position: relative;
+    left: 70px;
+    top: 5px;
+    /* Design */
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 25px;
+
+    /* Dimensions */
+}
+
+
+#passwordRegion {
+    /* Position */
+    position: relative;
+    top: 100px;
+    
+
+    /* Design */
+    border-radius: 10px;
+    background-color: #2f3034;
+    /* Dimensions */
+    height: 50px;
+    width: 450px;
+}
+
+#passwordBox {
+    /* Position */
+    position: relative;
+    left: 50px;
+    top: 7px;
+
+
+    /* Design */
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    transition: 1s;
+
+    /* Dimensions */
+    width: 350px;
+    height: 30px;
+}
+
+
+#passwordBox:hover {
+    background-color: #536fd3;
+}
+
+#generatePasswordButton {
+    /* Position */
+    position: relative;
+    top: 125px;
+    left: 150px;
+
+
+    /* Design */
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: #7289da;
+    color: black;
+    transition: 1s;
+
+    /* Dimensions */
+    width: 150px;
+    height: 50px;
+}
+
+#generatePasswordButton:hover {
+    background-color: #536fd3;
+}
+
+#githubProfile {
+    /* Position */
+    position: relative;
+
+    /* Design */
+    font-family: 'Poppins', sans-serif;
+    color: #36393f;
+    
+    /* Dimensions */
+    top: 180px;
+    left: 5px;
+}
+
+/* #1nsaNeLogo img{
+    height: 10px;
+    width: 10px;
+    /* object-fit: contain; */
+/* } */ 
+
+img {
+    /* Position */
+    position: absolute;
+    top: -80px;
+    left: 175px;
+    /* Design */
+    border-radius: 50%;
+    
+    /* Dimensions */
+    height: 70px;
+    width: 70px;
+}

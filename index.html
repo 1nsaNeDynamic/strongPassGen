@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="keyLogo.png" type="image/x-icon">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    
+    <div id="mainWindow">
+
+        <!-- 1nsaNe Logo -->
+        <a href="https://github.com/1nsaNeDynamic">
+            <img src="1nsaNeLogo.jpg" alt="1nsaNeLogo.jpg" id="1nsaNeLogo">
+        </a>
+        <!-- Header -->
+        <div id="mainWindowHeader">
+            <h1 id="mainWindowHeading">Password Generator</h1>
+        </div>
+
+        <!-- Password Length Box -->
+        <select name="passwordLength" id="passwordLength">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8" selected>8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+        </select>
+
+        <!-- Extra Features -->
+        <div id="passwordFeatures">
+            <!-- <label for="includeSymbols">Include Symbols?</label> -->
+            <input type="checkbox" name="includeSymbols" id="includeSymbols">
+            <h1 id="includeSymbolsHeading">Include Symbols?</h1>
+            <!-- <label for="includeUppercase">Include Uppercase</label> -->
+            <input type="checkbox" name="includeUppercase" id="includeUppercase">
+            <h1 id="includeUppercaseHeading">Include Uppercase?</h1>
+        </div>
+
+
+        <!-- Password Region -->
+        <div id="passwordRegion">
+            <input type="text" id="passwordBox" placeholder="Your Password Appears Here:" readonly>
+        </div>
+
+        <!-- Generate Password Button -->
+        <button id="generatePasswordButton" onclick="generatePassword()">Generate!</button>
+
+        <a href="https://github.com/1nsaNeDynamic" id="githubProfile">
+            
+            <h1 id="">github.com/1nsaNeDynamic</h1></a>
+
+    </div>
+
+
+</body>
+</html>
